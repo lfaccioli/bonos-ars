@@ -18,18 +18,18 @@ import streamlit as st
 
 
 #BAJO LOS DATOS DEL CER
-cer_index3 = pd.read_csv(r"C:\Users\lfaccioli\Spread Bonos\cerindex.csv")
+cer_index3 = pd.read_csv("cerindex.csv")
 
 #CODIGOS DE BONOS PARA BAJAR 
 
 
 #Construyo DATAFRAMES
 
-data_tf = pd.read_csv(r"C:\Users\lfaccioli\Spread Bonos\datatf.csv")
+data_tf = pd.read_csv("datatf.csv")
 
 
 
-data_cer = pd.read_csv(r"C:\Users\lfaccioli\Spread Bonos\datacer.csv")
+data_cer = pd.read_csv("datacer.csv")
 
 
 
