@@ -17,18 +17,18 @@ import streamlit as st
 
 
 #BAJO LOS DATOS DEL CER
-cer_index3 = pd.read_csv("cerindex.csv")
+cer_index3 = pd.read_csv("https://raw.githubusercontent.com/lfaccioli/bonos-ars/main/cerindex.csv",delimiter = ",")
 
 #CODIGOS DE BONOS PARA BAJAR 
 
 
 #Construyo DATAFRAMES
 
-data_tf = pd.read_csv("datatf.csv")
+data_tf = pd.read_csv("https://raw.githubusercontent.com/lfaccioli/bonos-ars/main/datatf.csv",delimiter = ",")
 
 
 
-data_cer = pd.read_csv("datacer.csv")
+data_cer = pd.read_csv("https://raw.githubusercontent.com/lfaccioli/bonos-ars/main/datacer.csv",delimiter = ",")
 
 
 
