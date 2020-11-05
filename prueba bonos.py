@@ -11,7 +11,7 @@ import datetime as dt
 import scipy.optimize as optimize
 from scipy.optimize import fsolve
 #import eikon as ek
-import configparser as cp
+#import configparser as cp
 from pandas.tseries.offsets import BDay
 import streamlit as st
 
